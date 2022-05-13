@@ -5,43 +5,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>FullStackWebDeveloper course of Code Factory</title>
+
 </head>
 
 <body>
-    <header>
-        <div class="logoTopLeft" id="logo">
+    <header class="HeaderTop">
+        <div class="logoTop">
+            <img src="./media/CFLOGO.png" alt="CodeFactory Logo" width="100px">
+        </div>
+        <div class="searchbarTop" id="searchbar">
+            <input type="search" name="SearchBar">
+        </div>
+        <ul class="navigationBar">
+            <li><a href="#SignUp" target="_blank">SignUp</a></li>
+            <li><a href="#login" target="_blank">Login</a></li>
+        </ul>
 
-        </div>
-        <div class="searchbarTop" id="searchbar"><input type="search" name="" id="">
-        </div>
-        <nav class="buttonTop">
-            <ul>
-                <li>
-                    <a href="#login" target="_blank"></a>Login</li>
-                <li>
-                    <a href="#SignUp" target="_blank"></a>SignUp</li>
-            </ul>
-        </nav>
     </header>
-    <section class="courseTechnologies" id="sectionTechnologies"></section>
+
+    <div class="content">
+        <div class="innerContent">
+            <h2>CodeFactory FSWD</h2>
+            <p>This course is specially designed to introduce you to WebDev world.</p>
+            <img src="./media/devices.png" alt="Device Pictures" width="100px">
+        </div>
+    </div>
+    <div class="technologies">
+        <h1>Course Technologies</h1>
+        <div class="tech">
+            <div class="box">
+                <div class="boxText">
+                    <h3>Front End</h3>
+                    <br>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JS</p>
+                    <p>Angular</p>
+
+                </div>
+                <div class="buttonTech">
+                    <button>Click to see more
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boxText">
+                    <h3>Back End</h3>
+                    <br>
+                    <p>MySql</p>
+                    <p>PHP</p>
+                    <p>Symfony</p>
+
+                </div>
+                <div class="buttonTech">
+                    <button>Click to see more
+                    </button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boxText">
+                    <h3>Projects</h3>
+                    <br>
+                    <p>Front End Project</p>
+                    <p>Full Stack Project</p>
+                </div>
+                <div class="buttonTech">
+                    <button>Click to see more
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
-        <div class="logoBottom" id="logoBottom"></div>
+        <div class="logoBottom" id="logoBottom">
+            <img src="./media/CFLOGO.png" alt="Logo" width="150px">
+        </div>
         <div class="copyright">Hasan Acartürk - CodeFactory &copy;</div>
+        <div class="allRights">All rights reserved</div>
+        <br>
         <div class="linkBottomPages">
             <ul>
                 <li>
-                    <a href="#about" target="_blank"></a>About
-                </li>
+                    <a href="#about" target="_blank"></a>About</li>
                 <li>
-                    <a href="#Blog" target="_blank"></a>Blog
-                </li>
+                    <a href="#Blog" target="_blank"></a>Blog</li>
                 <li>
-                    <a href="#GDPR" target="_blank"></a>GDPR
-                </li>
+                    <a href="#GDPR" target="_blank"></a>GDPR</li>
             </ul>
         </div>
-        <div class="allRights">All rights reserved</div>
+
     </footer>
 </body>
 
