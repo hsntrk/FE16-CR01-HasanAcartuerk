@@ -67,47 +67,39 @@ nav .searchbarTop input {
 
 /* Laptop Screen Section */
 
-.laptopKeyboard {
-    /* position: relative; */
-    /* z-index: -1; */
-    /* height: 20%; */
-}
-
-.laptopKeyboard img {
-    /* position: relative; */
-    /* z-index: -1; */
-}
-
-div.content {
-    /* position: relative; */
+.content {
+    display: flex;
     background-image: url(./media/keyboard.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
     height: 270px;
     background-size: cover;
-    text-align: justify;
+    text-align: bottom;
     color: white;
 }
 
-div.innerContent {
-    /* position: relative; */
-    padding-left: 20%;
-    /* padding-top: 15%; */
-    /* display: inline-block; */
-    width: 100%;
-    text-align: left;
-    /* text-align: bottom; */
+.innerContent {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .innerContent h2 {
-    font-size: 26px;
+    display: inline-flex;
+    padding-left: 40%;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .innerContent p {
-    padding-top: 10px;
-    font-size: 15px;
+    display: inline-flex;
+    padding-left: 40%;
+    font-size: 12px;
     font-weight: 400;
+}
+
+.innerContent img {
+    padding-left: 40%;
 }
 
 
