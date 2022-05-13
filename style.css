@@ -174,18 +174,6 @@ footer {
     font-weight: 400;
 }
 
-
-/* .logoBottom,
-.copyright,
-.allRights {
-    background-color: black;
-    align-items: center;
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    font-weight: 400;
-} */
-
 #logoBottom {
     padding: 10px;
 }
@@ -224,4 +212,53 @@ footer li {
 .linkBottomPages a:hover {
     color: black;
     background-color: yellow;
+}
+
+
+/* style.css for about page*/
+
+.aboutTitle {
+    position: fixed;
+    width: 100%;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.boxesBig {
+    position: relative;
+    padding: 70px;
+}
+
+.boxChild {
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#boxJunior {
+    position: sticky;
+    margin-top: 300px;
+    top: 59px;
+}
+
+#boxSenior {
+    position: sticky;
+    margin-top: 300px;
+    top: 115px;
+}
+
+#boxMaster {
+    position: sticky;
+    margin-top: 300px;
+    top: 45px;
+}
+
+#boxStudent {
+    position: sticky;
+    margin-top: 300px;
+    top: 157px;
 }
