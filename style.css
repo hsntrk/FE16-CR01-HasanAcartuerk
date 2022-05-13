@@ -15,34 +15,49 @@ body {
 /* Header Section with Logo Search Bar and Links */
 
 header {
-    display: block;
-    padding: 0px;
-    width: 100%;
+    /* display: block; */
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 0px; */
+    /* width: 100%; */
     height: 40px;
-    margin: 0;
+    /* margin: 0; */
     background-color: gray;
 }
 
+
+/* .headerTop {
+    display: flex;
+    justify-content: space-between;
+} */
+
 .logoTop img {
-    margin-top: 10px;
-    margin-left: 10px;
-    height: 100%;
-    display: block;
-    float: left;
+    /* display: flex; */
+    /* display: inline-flex; */
+    /* justify-content: flex-start; */
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+    /* height: 100%; */
+    /* display: block; */
+    /* float: left; */
 }
 
 .searchbarTop {
-    float: left;
-    height: 50%;
-    width: 100%;
-    display: flex;
-    vertical-align: middle;
-    justify-content: center;
+    /* display: inline-flex; */
+    /* vertical-align: middle; */
+    /* justify-content: center; */
+    /* float: left; */
+    /* height: 50%; */
+    /* width: 60%; */
 }
 
 .navigationBar {
-    width: 100%;
-    float: left;
+    /* display: inline-flex; */
+    /* justify-content: flex-end; */
+    /* width: 100%; */
+    /* float: right; */
 }
 
 .navigationBar li {
@@ -53,13 +68,14 @@ header {
     margin: 10px;
     background-color: #8D181A;
     border-radius: 25%;
+    /* color: white; */
 }
 
 .navigationBar li a {
     display: table-cell;
-    vertical-align: middle;
-    padding: 0px;
-    height: 100%;
+    /* vertical-align: middle; */
+    /* padding: 0px; */
+    /* height: 100%; */
     color: white;
     font-size: 12px;
     ;
