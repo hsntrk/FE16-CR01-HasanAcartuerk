@@ -149,8 +149,17 @@ nav .searchbarTop input {
 }
 
 button {
+    color: black;
     padding: 5px;
     font-size: 10px;
+}
+
+
+/* tried my first hover effect while using the mouse over the button*/
+
+button:hover {
+    background-color: darkorange;
+    color: white;
 }
 
 
@@ -165,6 +174,18 @@ footer {
     font-weight: 400;
 }
 
+
+/* .logoBottom,
+.copyright,
+.allRights {
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+} */
+
 #logoBottom {
     padding: 10px;
 }
@@ -174,8 +195,33 @@ footer {
     padding: 5px;
 }
 
+
+/* Created Links to switch to another page*/
+
 .linkBottomPages {
     display: flex;
     justify-content: center;
-    align-content: center;
+    /* align-content: center; */
+    /* background-color: black;
+    color: white; */
+}
+
+footer li {
+    /* list-style: none; */
+    float: left;
+    border: 1px solid yellow;
+    margin-right: 1em;
+    padding: 0.5em 1em;
+}
+
+.linkBottomPages a {
+    color: white;
+}
+
+
+/* hover effect second time of usage for link in footer) */
+
+.linkBottomPages a:hover {
+    color: black;
+    background-color: yellow;
 }
