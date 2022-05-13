@@ -22,7 +22,7 @@ nav {
     align-items: center;
     width: 100%;
     height: 40px;
-    background-color: gray;
+    background-color: black;
 }
 
 .logoTop img {
@@ -67,46 +67,37 @@ nav .searchbarTop input {
 
 /* Laptop Screen Section */
 
-.content {
+.innerContent {
+    position: relative;
     display: flex;
     background-image: url(./media/keyboard.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
     height: 270px;
     background-size: cover;
-    text-align: bottom;
     color: white;
-}
-
-.innerContent {
-    display: inline-flex;
+    z-index: -1;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 20%;
 }
 
-.innerContent h2 {
-    display: inline-flex;
-    padding-left: 40%;
+#content_title {
     font-size: 20px;
     font-weight: 600;
 }
 
-.innerContent p {
-    display: inline-flex;
-    padding-left: 40%;
+.innerContent>p {
     font-size: 12px;
     font-weight: 400;
-}
-
-.innerContent img {
-    padding-left: 40%;
 }
 
 
 /* Course Technologies Section */
 
 .technologies {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -125,7 +116,7 @@ nav .searchbarTop input {
 }
 
 .tech {
-    display: inline-flex;
+    display: flex;
     align-content: center;
     justify-content: center;
     color: white;
