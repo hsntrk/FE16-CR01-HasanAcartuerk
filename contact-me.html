@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <!-- internal CSS added only affect to contact-me.html page -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .contactSection {
+            background-color: rgb(119, 68, 68);
+            padding: 50px 150px;
+        }
+        
+        .contactSection h1 {
+            text-align: center;
+            color: black;
+        }
+        
+        .contactForm {
+            max-width: 700px;
+            margin: auto;
+            padding: 50px;
+            overflow: hidden;
+        }
+        
+        .contactText {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            margin: 12px 0;
+            border: 0;
+            background: burlywood;
+            padding: 20px 50px;
+        }
+        
+        .contactText:hover {
+            box-shadow: 0 0 10px 5px white;
+        }
+        
+        textarea.contactText {
+            height: 140px;
+        }
+        
+        .contactFormBtn {
+            float: right;
+            background: gray;
+            border: 0;
+            color: white;
+            padding: 10px 60px;
+            border-radius: 20px;
+            /* while hovering with the mouse Cursor on to the button it shows a loading symbol */
+            cursor: progress;
+        }
+        
+        .contactFormBtn:hover {
+            background-color: burlywood;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contactSection">
+        <h1>Contact Me</h1>
+        <form action="contactForm">
+            <input type="text" class="contactText" placeholder="your name">
+            <input type="text" class="contactText" placeholder="your email">
+            <input type="text" class="contactText" placeholder="your number">
+            <textarea class="contactText" placeholder="your message"></textarea>
+            <input type="submit" class="contactFormBtn" value="send to me">
+        </form>
+    </div>
+</body>
+
+</html>
