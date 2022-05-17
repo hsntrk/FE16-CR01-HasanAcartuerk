@@ -14,52 +14,47 @@ body {
 
 /* Nav Section with Logo Search Bar and Links */
 
-nav {
-    position: fixed;
-    display: flex;
-    /* position: relative; */
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 40px;
+
+/* removed the flexbox and
+created position absolute plus changed
+the structure in html */
+
+.header-top {
     background-color: black;
 }
 
-.logo-top img {
+.logo-top {
     margin-top: 10px;
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 
-nav .searchbar-top {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-nav .searchbar-top input {
-    border: none;
-    outline: none;
+.search-bar {
+    position: absolute;
+    float: left;
+    width: 35%;
+    height: 30px;
+    top: 10px;
+    left: 15%;
+    padding-right: 20%;
+    border-style: none;
     background: white;
-    height: 100%;
-    font-size: 20px;
-    width: 85%;
+    text-align: left;
 }
 
 .navigation-bar {
-    display: flex;
-}
-
-.navigation-bar li {
+    position: relative;
     float: right;
-    height: 100%;
-    display: table;
+    width: 100px;
+    height: 20px;
     padding: 8px 15px;
     margin: 10px;
     background-color: #8D181A;
     border-radius: 25%;
+    text-align: center;
 }
 
-.navigation-bar li a {
+.navigation-bar a {
     color: white;
     font-size: 12px;
 }
@@ -67,20 +62,28 @@ nav .searchbar-top input {
 
 /* Laptop Screen Section */
 
-.inner-content {
-    position: relative;
-    display: flex;
+
+/* removed the flexbox and
+created position absolute plus a defined class */
+
+.content {
     background-image: url(./media/keyboard.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
-    height: 270px;
     background-size: cover;
+    /* z-index: -1; */
+    height: 270px;
+}
+
+.inner-content {
+    position: absolute;
     color: white;
-    z-index: -1;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
     padding-left: 20%;
+    top: 230px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    /* align-items: flex-start; */
 }
 
 #content_title {
