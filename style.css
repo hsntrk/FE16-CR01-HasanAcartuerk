@@ -160,6 +160,9 @@ created position absolute plus a defined class */
 
 /* Footer Section with Logo and Copyright */
 
+
+/*removed flex*/
+
 .footer {
     position: relative;
     background-color: black;
@@ -206,7 +209,7 @@ created position absolute plus a defined class */
 }
 
 
-/* style.css for about page*/
+/* style.css for blog page*/
 
 .about-title {
     position: fixed;
@@ -221,6 +224,7 @@ created position absolute plus a defined class */
 .boxes-big {
     position: relative;
     padding: 70px;
+    height: 2000px;
 }
 
 .box-child {
@@ -232,24 +236,24 @@ created position absolute plus a defined class */
 
 #box-junior {
     position: sticky;
-    margin-top: 300px;
-    top: 59px;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    top: 100px;
 }
 
 #box-senior {
     position: sticky;
-    margin-top: 300px;
-    top: 115px;
+    top: 100px;
 }
 
 #box-master {
     position: sticky;
     margin-top: 300px;
-    top: 45px;
+    top: 100px;
 }
 
 #box-student {
     position: sticky;
     margin-top: 300px;
-    top: 157px;
+    top: 100px;
 }
