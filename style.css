@@ -25,18 +25,18 @@ nav {
     background-color: black;
 }
 
-.logoTop img {
+.logo-top img {
     margin-top: 10px;
     margin-left: 10px;
 }
 
-nav .searchbarTop {
+nav .searchbar-top {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-nav .searchbarTop input {
+nav .searchbar-top input {
     border: none;
     outline: none;
     background: white;
@@ -45,11 +45,11 @@ nav .searchbarTop input {
     width: 85%;
 }
 
-.navigationBar {
+.navigation-bar {
     display: flex;
 }
 
-.navigationBar li {
+.navigation-bar li {
     float: right;
     height: 100%;
     display: table;
@@ -59,7 +59,7 @@ nav .searchbarTop input {
     border-radius: 25%;
 }
 
-.navigationBar li a {
+.navigation-bar li a {
     color: white;
     font-size: 12px;
 }
@@ -67,7 +67,7 @@ nav .searchbarTop input {
 
 /* Laptop Screen Section */
 
-.innerContent {
+.inner-content {
     position: relative;
     display: flex;
     background-image: url(./media/keyboard.jpg);
@@ -88,7 +88,7 @@ nav .searchbarTop input {
     font-weight: 600;
 }
 
-.innerContent>p {
+.inner-content>p {
     font-size: 12px;
     font-weight: 400;
 }
@@ -132,7 +132,7 @@ nav .searchbarTop input {
     text-align: center;
 }
 
-.boxText {
+.box-text {
     height: 80%;
 }
 
@@ -143,7 +143,7 @@ nav .searchbarTop input {
     font-weight: 600;
 }
 
-.buttonTech {
+.button-tech {
     margin: 10px;
     text-align: center;
 }
@@ -174,11 +174,11 @@ footer {
     font-weight: 400;
 }
 
-#logoBottom {
+#logo-bottom {
     padding: 10px;
 }
 
-.allRights {
+.all-rights {
     font-style: italic;
     padding: 5px;
 }
@@ -186,7 +186,7 @@ footer {
 
 /* Created Links to switch to another page*/
 
-.linkBottomPages {
+.link-bottom-pages {
     display: flex;
     justify-content: center;
     /* align-content: center; */
@@ -202,14 +202,14 @@ footer li {
     padding: 0.5em 1em;
 }
 
-.linkBottomPages a {
+.link-bottom-pages a {
     color: white;
 }
 
 
 /* hover effect second time of usage for link in footer) */
 
-.linkBottomPages a:hover {
+.link-bottom-pages a:hover {
     color: black;
     background-color: yellow;
 }
@@ -217,7 +217,7 @@ footer li {
 
 /* style.css for about page*/
 
-.aboutTitle {
+.about-title {
     position: fixed;
     width: 100%;
     text-decoration: none;
@@ -227,37 +227,37 @@ footer li {
     padding: 10px;
 }
 
-.boxesBig {
+.boxes-big {
     position: relative;
     padding: 70px;
 }
 
-.boxChild {
+.box-child {
     background-color: green;
     text-align: center;
     color: white;
     padding: 10px;
 }
 
-#boxJunior {
+#box-junior {
     position: sticky;
     margin-top: 300px;
     top: 59px;
 }
 
-#boxSenior {
+#box-senior {
     position: sticky;
     margin-top: 300px;
     top: 115px;
 }
 
-#boxMaster {
+#box-master {
     position: sticky;
     margin-top: 300px;
     top: 45px;
 }
 
-#boxStudent {
+#box-student {
     position: sticky;
     margin-top: 300px;
     top: 157px;
