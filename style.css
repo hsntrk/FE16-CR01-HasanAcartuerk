@@ -67,6 +67,7 @@ the structure in html */
 created position absolute plus a defined class */
 
 .content {
+    position: relative;
     background-image: url(./media/keyboard.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -78,7 +79,7 @@ created position absolute plus a defined class */
     position: absolute;
     color: white;
     padding-left: 20%;
-    top: 230px;
+    bottom: 1%;
 }
 
 #content_title {
