@@ -71,7 +71,6 @@ created position absolute plus a defined class */
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* z-index: -1; */
     height: 270px;
 }
 
@@ -80,10 +79,6 @@ created position absolute plus a defined class */
     color: white;
     padding-left: 20%;
     top: 230px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: flex-end; */
-    /* align-items: flex-start; */
 }
 
 #content_title {
